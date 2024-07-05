@@ -17,7 +17,12 @@ body {
   background-color: #ebe9e8;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #ff706b !important;
 }
 
@@ -29,7 +34,11 @@ h1, h2, h3, h4, h5, h6 {
   min-height: calc(100vh - 102px - 149px - 344px);
 }
 
-.container.content.services {
+.container.content.service {
+  min-height: calc(100vh - 102px - 149px);
+}
+
+.container.content.coverage {
   min-height: calc(100vh - 102px - 149px);
 }
 
@@ -80,8 +89,4 @@ h1, h2, h3, h4, h5, h6 {
 .pgr-img {
   height: fit-content;
   max-width: 70px;
-}
-
-.pgr-text {
-  /* font-size: 0.8rem; */
 }
