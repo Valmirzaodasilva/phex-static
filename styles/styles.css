@@ -7,6 +7,8 @@
   --bs-primary: #ef3d36;
   --bs-secondary: #0b4076;
   --bs-tertiary: #6d6e70;
+  --text-primary: #ff706b;
+  --bs-primary-rgb: 239, 61, 54;
 }
 
 html,
@@ -15,8 +17,16 @@ body {
   background-color: #ebe9e8;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #ff706b !important;
+}
+
 .content {
   background-color: #ebe9e8;
+}
+
+.container.content.abouts {
+  min-height: calc(100vh - 102px - 149px - 344px);
 }
 
 .nav-item {
@@ -27,10 +37,10 @@ body {
   text-transform: uppercase;
   padding: 0;
   font-weight: bold;
-  
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   border-bottom: 2px solid var(--bs-primary);
   color: var(--bs-secondary);
 }
@@ -48,4 +58,26 @@ body {
   border-top: 3px double #bebebe;
   background: #f0efef;
   color: var(--bs-secondary) !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* PGR SECTION */
+
+.pgr-title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #9b9b9b;
+}
+
+.pgr-img {
+  height: fit-content;
+  max-width: 70px;
+}
+
+.pgr-text {
+  font-size: 0.8rem;
 }
