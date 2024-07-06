@@ -34,8 +34,8 @@ h6 {
   min-height: calc(100vh - 102px - 149px - 344px);
 }
 
-.container.content.service {
-  min-height: calc(100vh - 102px - 149px);
+.container.content.services {
+  min-height: calc(100vh - 102px - 149px );
 }
 
 .container.content.coverage {
