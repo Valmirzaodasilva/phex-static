@@ -103,6 +103,7 @@ h6 {
 
 .btn-receber-atendimento {
   color: white;
+  max-width: 250px;
   border: 2px solid #25d366;
   background: #25d366;
   border-radius: 29px;
